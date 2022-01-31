@@ -7,10 +7,11 @@ import "./Styles/Styles.css"
 function App() {
 
   return (
-    <div className="App">
+    <div className="App" style={{ height: "100vh" }}>
       <div style={{ height: "100vh" }} className='container-fluid d-flex justify-content-center align-items-center'>
         <Button />
         <Card />
+
       </div>
     </div>
   );
