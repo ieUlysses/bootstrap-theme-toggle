@@ -16,8 +16,7 @@ function Button() {
 
     return (
         <>
-            <button onClick={click} className="btn btn-toggle /* btn-primary */ /*  btn-custom */ ">Secondary</button>
-
+            <button onClick={click} className="btn btn-toggle ">Toggle Color mode</button>
         </>
     )
 }
