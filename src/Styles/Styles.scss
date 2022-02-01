@@ -1,17 +1,9 @@
-
-@import "../../node_modules//bootstrap/scss/bootstrap.scss";
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules//bootstrap/scss/variables";
-
-
-$custom-colors: (
-  "custom": #900
-);
+    $primary:#c86868;
 
 
 .dark{
-    $primary:red;
-$custom: #a1ffc8;
+    //$primary:#c86868;
+
 
     background-color: rgb(0, 0, 0);
         
@@ -26,11 +18,12 @@ $custom: #a1ffc8;
     }
 }
 
+
 .light{
-    $primary:green;
-    $custom: #0074d9;
+    // $primary:#c34d4d;
 
     background-color: rgb(189, 189, 189);
+    
         .btn-toggle{
         background-color:rgb(167, 167, 167);
         color:rgb(49, 49, 49);
@@ -42,5 +35,8 @@ $custom: #a1ffc8;
     }
 }
 
-// Merge the maps
-$theme-colors: map-merge($theme-colors, $custom-colors);
+@import "../../node_modules//bootstrap/scss/bootstrap";
+
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules//bootstrap/scss/variables"; 
